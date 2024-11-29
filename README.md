@@ -5,7 +5,7 @@
 这是一个简单的事件管理应用，它使用Spring Boot框架创建一个基本的RESTful API服务。该应用程序将列出已存在的事件，并且用户可以增加、删除和修改事件。 
 ## 技术栈
  
-- **后端**：Spring Boot
+- **后端**：Spring Boot 3.0.0
 - **构建工具**：Maven
 - **运行时环境**：OpenJDK 17
 - **容器化**：Docker
