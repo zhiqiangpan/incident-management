@@ -41,6 +41,11 @@ public class IncidentController {
         this.incidentService = incidentService;
     }
 
+    /**
+     * 事件创建
+     * @param incidentSaveDTO
+     * @return
+     */
     @PostMapping
     public ResponseEntity<Incident> createIncident(@Valid @RequestBody IncidentSaveDTO incidentSaveDTO) {
         try {
@@ -53,6 +58,11 @@ public class IncidentController {
         }
     }
 
+    /**
+     * 根据id获取时间
+     * @param id
+     * @return
+     */
     @GetMapping("/{id}")
     public ResponseEntity<Incident> getIncidentById(@PathVariable Long id) {
         Optional<Incident> incident = incidentService.getIncidentById(id);
@@ -62,7 +72,13 @@ public class IncidentController {
             return ResponseEntity.notFound().build();
         }
     }
-    
+
+    /**
+     * 事件修改
+     * @param id
+     * @param incidentModifyDTO
+     * @return
+     */
     @PutMapping("/{id}")
     public ResponseEntity<Incident> modifyIncident(@PathVariable Long id, @Valid @RequestBody IncidentModifyDTO incidentModifyDTO) {
         try {
@@ -75,6 +91,11 @@ public class IncidentController {
         }
     }
 
+    /**
+     * 事件删除
+     * @param id
+     * @return
+     */
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteIncidentById(@PathVariable Long id) {
         try{
@@ -85,6 +106,10 @@ public class IncidentController {
         }
     }
 
+    /**
+     * 获取所有事件
+     * @return
+     */
     @GetMapping
     public ResponseEntity<List<Incident>> getAllIncidents() {
         List<Incident> incidents = incidentService.getAllIncidents();
