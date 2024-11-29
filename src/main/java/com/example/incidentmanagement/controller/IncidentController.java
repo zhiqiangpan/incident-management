@@ -26,7 +26,7 @@ import java.util.Optional;
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 事件管理controller
  * @Date 2024/11/28
  */
 @RestController

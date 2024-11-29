@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 事件存储
  * @Date 2024/11/28
  */
 @Repository

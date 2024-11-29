@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 事件Controller测试类
  * @Date 2024/11/28
  */
 @SpringBootTest

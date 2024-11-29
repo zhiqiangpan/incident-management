@@ -6,7 +6,7 @@ import javax.validation.constraints.NotNull;
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 事件创建DTO
  * @Date 2024/11/28
  */
 @Data

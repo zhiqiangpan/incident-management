@@ -7,7 +7,7 @@ import javax.validation.constraints.NotNull;
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 事件修改DTO
  * @Date 2024/11/28
  */
 @Data

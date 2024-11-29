@@ -6,7 +6,7 @@ import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 事件应用启动类
  * @Date 2024/11/28
  */
 @SpringBootApplication

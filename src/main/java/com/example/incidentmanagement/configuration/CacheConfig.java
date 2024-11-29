@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author panzhiqiang
- * @Description
+ * @Description 缓存配置
  * @Date 2024/11/28
  */
 @Configuration
